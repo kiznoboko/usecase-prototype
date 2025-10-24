@@ -1,16 +1,57 @@
-# React + Vite
+# 💊 MedSupply Chain
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 🎯 Objectif du projet
+Assurer la **traçabilité complète et infalsifiable** des médicaments — de leur fabrication jusqu’à leur délivrance au patient — afin de **lutter efficacement contre la contrefaçon** et les anomalies logistiques.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ⚙️ Fonctionnement
 
-## React Compiler
+1. **Attribution d’un identifiant unique**  
+   Chaque lot de médicament se voit attribuer un **identifiant unique** enregistré sur le réseau **Hedera Hashgraph**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. **Suivi en temps réel**  
+   À chaque étape du parcours — **usine → distributeur → pharmacie → patient** — un **événement est inscrit sur la blockchain**, garantissant la **transparence** et l’**immutabilité** des données.
 
-## Expanding the ESLint configuration
+3. **Analyse intelligente**  
+   Une **IA de surveillance** analyse les données de la chaîne logistique pour détecter :
+   - des **ruptures suspectes**,  
+   - des **surstocks anormaux**,  
+   - des **incohérences géographiques** (ex. : lot livré dans une région inattendue).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 🧩 Configuration du projet
+Ce modèle fournit une **configuration minimale** pour démarrer le développement du projet.
+
+### 🧩 Configuration du projet
+Ce modèle fournit une **configuration minimale** pour démarrer le développement du projet.
+
+---
+
+### ⚙️ Installation et exécution
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/kiznoboko/blockchaine-use-prototype.git
+   cd blockchaine-use-prototype
+
+---
+
+### 👥 Contributeurs
+- [@kiznoboko](https://github.com/kiznoboko)  
+- [@Ourouimed](https://github.com/Ourouimed)  
+- [@chaimae_dl](https://github.com/chaimae-dl)
+- [@meryem-dev12](https://github.com/meryem-dev12)
+
+---
+
+### 📘 Licence
+Ce projet est open-source et distribué sous licence MIT.
+
+---
+
+### 🚀 À venir
+- Interface utilisateur pour le suivi des lots  
+- Intégration complète avec les API Hedera  
+- Tableau de bord d’analyse IA en temps réel  
