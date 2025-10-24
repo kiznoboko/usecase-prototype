@@ -13,7 +13,7 @@ const Landing_page = () => {
             <div className="logo">
               <img src={HederaLogo} alt="Hedera Logo" />
             </div>
-            <span>PharmaSafe Expert</span>
+            <span>MedSupply Chain</span>
           </div>
           <nav className="nav-links">
             <a href="#mission">Mission</a>
@@ -187,7 +187,7 @@ const Landing_page = () => {
       <footer className="site-footer">
         <div className="container footer-grid">
           <div>
-            <strong>PharmaSafe Expert</strong>
+            <strong> MedSupply Chain</strong>
             <p>Expert en traçabilité pharmaceutique et lutte contre la contrefaçon.</p>
           </div>
           <div className="footer-links">
@@ -197,7 +197,7 @@ const Landing_page = () => {
             <a href="#contact">Contact</a>
           </div>
           <div>
-            <small>© 2025 PharmaSafe Expert. Tous droits réservés.</small>
+            <small>© 2025  MedSupply Chain. Tous droits réservés.</small>
           </div>
         </div>
       </footer>
