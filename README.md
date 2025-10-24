@@ -39,10 +39,14 @@ Ce modèle fournit une **configuration minimale** pour démarrer le développeme
 ---
 
 ### 👥 Contributeurs
-- [@kiznoboko](https://github.com/kiznoboko)  
+- [@kiznoboko](https://github.com/kiznoboko)
 - [@Ourouimed](https://github.com/Ourouimed)  
 - [@chaimae_dl](https://github.com/chaimae-dl)
+- [@ayamoukit20-droid](https://github.com/ayamoukit20-droid)
+- [@OSM-arch](https://github.com/OSM-arch)
+- [@PhIkaros](https://github.com/PhIkaros)
 - [@meryem-dev12](https://github.com/meryem-dev12)
+
 
 ---
 
