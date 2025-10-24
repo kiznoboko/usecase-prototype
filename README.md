@@ -46,6 +46,9 @@ Ce modèle fournit une **configuration minimale** pour démarrer le développeme
 - [@OSM-arch](https://github.com/OSM-arch)
 - [@PhIkaros](https://github.com/PhIkaros)
 - [@meryem-dev12](https://github.com/meryem-dev12)
+- [@OmarMimouni](https://github.com/OmarMimouni)
+
+
 
 
 ---
