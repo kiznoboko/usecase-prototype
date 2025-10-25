@@ -1,0 +1,314 @@
+/* Wrapper for the form
+.Demander_deviswrapper {
+    border: 4px solid black;
+  background-color: var(--bg-color);
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  margin: 2rem auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+
+.demander-devis-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  
+ width: 100%;
+}
+
+.demander_devis_title {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-control-submit-devis {
+    display: flex;
+    justify-content: space-between;
+  flex-direction: row;
+  gap: 1.5rem;
+  border: 1px dashed black;
+ width: 70%;
+
+}
+
+
+.form-label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+
+.form-control-devis-input {
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+
+.form-control-devis-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+.btn-submit-devis {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+
+.btn-submit-devis:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+
+@media (max-width: 768px) {
+  .demander-devis-wrapper {
+    padding: 1.5rem;
+  }
+
+  .form-control-devis-input {
+    font-size: 0.95rem;
+  }
+
+  .btn-submit-devis {
+    padding: 0.75rem 1.25rem;
+  }
+} */
+
+
+
+/* .Demander_deviswrapper {
+  background-color: var(--bg-color);
+  padding: 3rem 2rem;
+  width: 100%;
+  height: 100%;
+
+  margin: 2rem auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+
+ .demander-devis-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1.5rem;
+  width: 300px;
+ 
+  height: 200px;
+}
+
+
+.demander_devis_title {
+    width: 100%;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  
+}
+
+.form-control-submit-devis {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+
+.form-label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+
+.form-control-devis-input {
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+  width: 100%;
+}
+
+
+.form-control-devis-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+
+.btn-submit-devis {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+  width: 100px;
+}
+
+.btn-submit-devis:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+
+@media (max-width: 768px) {
+  .Demander_deviswrapper {
+    padding: 1.5rem;
+  }
+
+  .demander_devis_title {
+    font-size: 1.2rem;
+  }
+
+  .form-control-devis-input {
+    font-size: 0.95rem;
+  }
+
+  .btn-submit-devis {
+    padding: 0.75rem 1.25rem;
+  }
+} */
+
+
+
+.Demander_deviswrapper {
+  background-color: var(--bg-color);
+  padding: 3rem 2rem;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove extra margin */
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  display: flex;
+  justify-content: space-evenly; /* Center the form horizontally */
+  align-items: center; /* Align form at the top */
+  flex-direction: column; /* Stack the form content */
+}
+
+.demander-devis-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 80%; /* Responsive width */
+  max-width: 500px; /* Max width for large screens */
+  min-width: 300px; /* Ensure it doesn’t shrink too small */
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.demander_devis_title {
+  width: 100%;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.form-control-submit-devis {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Input and Label styling */
+.form-label {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+.form-control-devis-input {
+  padding: 0.85rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: var(--transition);
+  width: 100%;
+}
+
+/* Focus effect for the input */
+.form-control-devis-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+}
+
+/* Submit button style */
+.btn-submit-devis {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.85rem 1.5rem;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-md);
+  width: 100px;
+}
+
+/* Hover effect for the button */
+.btn-submit-devis:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Responsive Design: Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .Demander_deviswrapper {
+    padding: 2rem;
+  }
+
+  .demander_devis_title {
+    font-size: 1.2rem;
+  }
+
+  .form-control-devis-input {
+    font-size: 0.95rem;
+  }
+
+  .btn-submit-devis {
+    padding: 0.75rem 1.25rem;
+  }
+}

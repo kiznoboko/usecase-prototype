@@ -10,8 +10,9 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 4px solid black; */
+ 
   overflow-x: hidden;
+  scroll-behavior: smooth;
   
   
 }
@@ -23,6 +24,5 @@ html, body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border: 1px dashed red; */
-
+  
 }
